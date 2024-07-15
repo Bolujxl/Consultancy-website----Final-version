@@ -1,0 +1,10 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  font-family:"Plus Jakarta Sans";
+  overflow-x: hidden;
+}
+

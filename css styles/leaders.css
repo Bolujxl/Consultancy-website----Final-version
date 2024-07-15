@@ -1,0 +1,132 @@
+.leaders-section{
+  padding: 112px 102px 124px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.leadertext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.leaderstexthead{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: rgba(73, 73, 73, .75);
+  margin: 0 0 15px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.leaderstextdesc{
+  letter-spacing: 0.2px;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight: 500;
+  color: #0F0F0F;
+  width: 600px;
+  margin: 0 0 0;
+  text-align: center;
+}
+
+.leaders-cards{
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.leadercard1, .leadercard2, .leadercard3, .leadercard4{
+  border-radius: 5px;
+  width: 235px;
+  height: 355px;
+  overflow: hidden;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 0 2px 28px 0 rgba(1,1,1.5,.06);
+}
+
+.leaderframe, .leaderframe2, .leaderframe3, .leaderframe4{
+  display: flex;
+  position: relative;
+  top: 0px;
+  transition: 0.5s;
+}
+
+.leaderframe:hover, .leaderframe2:hover, .leaderframe3:hover, .leaderframe4:hover   {
+  display: flex;
+  position: relative;
+  top: -10px;
+  box-shadow: 0 10px 45px 0 rgba(1,1,1.5,.10);
+  cursor: pointer;
+}
+
+
+.leader1-imgbox, .leader2-imgbox, .leader3-imgbox, .leader4-imgbox{
+  width: 100%;
+  height: 265px;
+  overflow: hidden;
+}
+
+.leader1-img, .leader2-img, .leader3-img, .leader4-img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.leader-1-text, .leader-2-text, .leader-3-text, .leader-4-text{
+  display: inline-block;
+ width: 68%;
+}
+
+
+.leader-1-name, .leader-2-name, .leader-3-name, .leader-4-name{
+  font-size: 17px;
+  margin: 20px 0 0 10px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.leader-1-desc, .leader-2-desc, .leader-3-desc, .leader-4-desc{
+  font-size: 12.5px;
+  font-weight: 300;
+  letter-spacing: 0.5;
+  text-align: center;
+  margin: 4px 0 0 10px;
+  text-align: left;
+  color: rgb(41, 40, 40);
+}
+
+.socials{
+  display: inline-block;
+}
+
+.socials img:nth-child(1){
+  margin-right: 5px;
+  width: initial;
+  height: initial;
+}
+
+.socials img:nth-child(2){
+  width: initial;
+  height: initial;
+
+}
+
+.leader-1-links, .leader-2-links, .leader-3-links, .leader-4-links{
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  margin: 15px 0 0 0;
+  padding-top: 10px;
+  color: rgba(141, 138, 138, 0.9);
+  border-top-style:solid ;
+  border-top-color: rgba(107, 104, 104, 0.2);
+  border-top-width: 1px;
+}

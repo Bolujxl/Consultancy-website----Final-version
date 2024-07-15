@@ -1,0 +1,144 @@
+.attributes-section{
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.attrbtes1img{
+  width: inherit;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.attrimg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.attr-overlay{
+  width: 100%;
+  height: 100%;    
+  background-color: #0c0c0c;
+  opacity: 0.94;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+}
+
+.attr-head{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.attr-headtext{
+  font-size: 29px;
+  color: white;
+  font-weight: 700;
+  width: 480px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  margin-top: 0px; 
+}
+
+.attr-desc{
+  margin: 0 0 82px 0;
+  font-size: 14px;
+  width: 500px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgb(146, 140, 140);
+}
+
+.key-attr{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.excellence, .alliance, .Intuition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.excellence img, .alliance img, .Intuition img{
+  width: initial;
+  height: initial;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+.excellence p, .alliance p, .Intuition p{
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.attrvideo{
+  display: flex;
+  position: absolute;
+  border-radius: 3px;
+  width: 465px;
+  height: 406px;
+  overflow: hidden;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50% );
+  align-items: center;
+  justify-content: center;
+}
+
+.vid-nail{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.play{
+  width: 50px;
+  z-index: 1;
+  height: 50px;
+  position: absolute;
+  
+}
+
+
+.description{
+  display: flex;
+  position: absolute;
+  top: 123px;
+  left: 120px;
+}
+
+.descone{
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  fill: azure;
+}
+
+.sdc{
+  fill: rgb(255, 255, 255);
+}
+
+
+

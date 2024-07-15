@@ -1,0 +1,250 @@
+.managersection{
+  display: flex;
+  /* position: relative; */
+  height: 740px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(209, 209, 209, 0.5);
+  align-items: center;
+  justify-content: center;
+
+}
+
+.managersection-inner{
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.managersframe{
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: 100%;
+  
+}
+
+.manager1{
+  width: 257px;
+  height: 375px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  z-index: 1;
+  border: 5px solid rgba(209, 209, 209, 0.5);
+}
+
+.manager2{
+  width: 257px;
+  height: 230px;
+  position: absolute;
+  top: 70px;
+  left: 355px;
+  border: 5px solid rgba(209, 209, 209, 0.5);
+
+}
+
+.manager3{
+  width: 257px;
+  height: 230px;
+  position: absolute;
+  top: 370px;
+  left: 355px;
+  border: 5px solid rgba(209, 209, 209, 0.5);
+}
+
+.manager1img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.manager2img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.manager3img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.directors{
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  align-items: flex-start;
+  /* position: absolute; */
+  flex-direction: column;
+  /* top: 180px;
+  right: 200px; */
+  margin: 0 24px 0 0;
+}
+
+.directorhead{
+  font-size: 35px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+  line-height: 42px;
+}
+
+.directorsub{
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  font-weight: 300;
+  width: 380px;
+  line-height: 27px;
+  color: rgb(97, 97, 97);
+  text-align: left;
+}
+
+.signature{
+  width: 200px;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.signatureimg{
+  object-fit: cover;
+  width: 100%;
+}
+
+.teamlead{
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 500;
+  color: rgb(63, 62, 62);
+  letter-spacing: 0.3px;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+
+
+/* .managersection{
+  display: flex;
+  position: relative;
+  height: 740px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(209, 209, 209, 0.5);
+  align-items: center;
+  justify-content: center;
+
+}
+
+.managersection-inner{
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 75%;
+  width: 1200px;
+}
+
+.managersframe{
+  display: flex;
+}
+
+.manager1{
+  width: 257px;
+  height: 375px;
+  position: absolute;
+  top: 140px;
+  left: 60px;
+  z-index: 1;
+  border: 5px solid rgba(209, 209, 209, 0.5);
+}
+
+.manager2{
+  width: 257px;
+  height: 230px;
+  position: absolute;
+  top: 70px;
+  left: 380px;
+  border: 5px solid rgba(209, 209, 209, 0.5);
+
+}
+
+.manager3{
+  width: 257px;
+  height: 230px;
+  position: absolute;
+  top: 370px;
+  left: 390px;
+  border: 5px solid rgba(209, 209, 209, 0.5);
+}
+
+.manager1img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.manager2img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.manager3img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.directors{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 180px;
+  right: 100px;
+}
+
+.directorhead{
+  font-size: 35px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+  line-height: 42px;
+}
+
+.directorsub{
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  font-weight: 300;
+  width: 340px;
+  line-height: 27px;
+  color: rgb(97, 97, 97);
+}
+
+.signature{
+  width: 200px;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.signatureimg{
+  object-fit: cover;
+  width: 100%;
+}
+
+.teamlead{
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 500;
+  color: rgb(63, 62, 62);
+  letter-spacing: 0.3px;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+} */
